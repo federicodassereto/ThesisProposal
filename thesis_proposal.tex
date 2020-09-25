@@ -1,0 +1,96 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%% Proposal of the first year %%%%%%%%%%%%%
+\documentclass[a4paper,11pt, english]{article}
+
+%%%%%%%%%%%% Packages
+\usepackage[table]{xcolor}         			% coloured text
+\usepackage{smartdiagram}
+\usepackage{adjustbox}
+\usepackage{changepage}
+\usepackage{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{lipsum,calc}
+\usepackage{array,longtable}
+\usepackage{tabularx} 
+\usepackage{collcell}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\usepackage[all]{xy}         			% diagrams
+\usepackage{amssymb}				% \mathbb and others
+\usepackage{amsthm}				% theorem styles
+\usepackage{amsmath}				% Declair math operator
+\usepackage{enumerate}       			% many possible numerations
+\usepackage{manfnt,xspace}			%% added package
+\usepackage[a4paper,top=3cm, bottom=3cm, left=3cm, right=3cm]{geometry}
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+%\usepackage{natbib}
+\usepackage[backend=bibtex,style=numeric,citestyle=numeric]{biblatex}
+\addbibresource{proposal_correct}
+                        
+
+\newcommand{\cmark}{\ding{51}}                    
+                        
+\definecolor{lightgreen}{HTML}{CCFF66}
+\definecolor{green}{HTML}{66FF66}
+\definecolor{lightyellow}{HTML}{FFFF66}
+\definecolor{orange}{HTML}{FF9900}
+\definecolor{red}{HTML}{FF3333}
+\definecolor{cyan}{HTML}{00CCFF}
+\definecolor{blue}{HTML}{0000FF}
+\definecolor{blue-violet}{rgb}{0.54, 0.17, 0.89}
+                        
+
+%%%%% Font Macros
+\usepackage{dsfont}
+\usepackage[T1]{fontenc}
+\def\lqq{{\fontencoding{T1}\selectfont\guillemotleft}}
+\def\rqq{{\fontencoding{T1}\selectfont\guillemotright}}
+\DeclareFontFamily{OT1}{pzc}{}
+\DeclareFontShape{OT1}{pzc}{m}{it}{<->s*[1.10]pzcmi7t}{}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+
+\pgfplotsset{compat=1.9}
+
+%%%%%%%%%%%%%%%%%%%%%%% title
+
+\title{\vspace{0cm}
+\hrule
+\vspace{1cm}
+\centerline{\LARGE{Thesis Proposal:}}
+\vspace{0.5cm}
+\centerline{\LARGE {\bf The Role of Embeddings in Data-Driven Augmentation}}
+%\centerline{\LARGE{\bf }}
+}
+
+%\title{\begin{Large}Research Proposal\end{Large}}
+\author{Federico Dassereto}
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\maketitle
+\hrule 
+\vspace{1cm}
+
+\begin{abstract}
+    A-o meu neuo gh'é neue nae neue: a ciù neua de neue nae neue a n'eu anâ.
+\end{abstract}
+
+\input{sections/motivations.tex}
+
+\input{sections/reference.tex}
+
+\input{sections/related.tex}
+
+\input{sections/goals.tex}
+
+\input{sections/researchplan.tex}
+
+
+
+%\nocite{*}
+\printbibliography
+
+\end{document}
