@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex thesis_proposal"] 1601047559 "thesis_proposal.aux" "thesis_proposal.bbl" "thesis_proposal" 1601047560
+["bibtex thesis_proposal"] 1601047559 "thesis_proposal.aux" "thesis_proposal.bbl" "thesis_proposal" 1601310736
   "/usr/local/texlive/2019/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1541279461 64114 9f5431e5c511cac88d0dcd7e87bd2d0e ""
   "proposal_correct.bib" 1601047559 1548 a8670317f25b86ff9e83fac1bc29e0de ""
-  "thesis_proposal-blx.bib" 1601032915 332 c80cc8eb6e15cd6e844e31e86ad5e8db "pdflatex"
-  "thesis_proposal.aux" 1601032915 2401 4f1fc76125c4651ea364354c03d2c71f "pdflatex"
+  "thesis_proposal-blx.bib" 1601310718 332 c80cc8eb6e15cd6e844e31e86ad5e8db "pdflatex"
+  "thesis_proposal.aux" 1601310718 2401 4f1fc76125c4651ea364354c03d2c71f "pdflatex"
   (generated)
   "thesis_proposal.bbl"
   "thesis_proposal.blg"
-["pdflatex"] 1601032914 "/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/thesis_proposal.tex" "/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/thesis_proposal.pdf" "thesis_proposal" 1601047560
-  "/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/thesis_proposal.aux" 1601032915 2401 4f1fc76125c4651ea364354c03d2c71f ""
-  "/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/thesis_proposal.tex" 1601032517 2561 d42955d5bc0d8c94ab6572b09acb973b ""
-  "/dev/null" 1601047554 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1601310716 "/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/thesis_proposal.tex" "/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/thesis_proposal.pdf" "thesis_proposal" 1601310736
+  "/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/thesis_proposal.aux" 1601310718 2401 4f1fc76125c4651ea364354c03d2c71f ""
+  "/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/thesis_proposal.tex" 1601310736 3863 4f812971a491035b63a4a66c142a614f ""
+  "/dev/null" 1601310718 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -307,17 +307,17 @@
   "sections/reference.tex" 1601032489 64 36c9554e7be193cf7478f8ba427468f3 ""
   "sections/related.tex" 1601032491 41 6cc02200bdca524826ebb526d3b829ca ""
   "sections/researchplan.tex" 1601032482 43 108adcab996280d4b9e2f2bf1363dc1f ""
-  "thesis_proposal.aux" 1601032915 2401 4f1fc76125c4651ea364354c03d2c71f "pdflatex"
+  "thesis_proposal.aux" 1601310718 2401 4f1fc76125c4651ea364354c03d2c71f "pdflatex"
   "thesis_proposal.bbl" 1601047560 512 7d676de3cd541f6eb42b3eeba217a84b "bibtex thesis_proposal"
-  "thesis_proposal.out" 1601032915 290 548a650d98214a2bdade22dc031172cb "pdflatex"
-  "thesis_proposal.run.xml" 1601032915 2623 959ed66fce87079e4da7f4dd65b24d92 "pdflatex"
-  "thesis_proposal.tex" 1601032517 2561 d42955d5bc0d8c94ab6572b09acb973b ""
+  "thesis_proposal.out" 1601310718 290 548a650d98214a2bdade22dc031172cb "pdflatex"
+  "thesis_proposal.run.xml" 1601310718 2623 959ed66fce87079e4da7f4dd65b24d92 "pdflatex"
+  "thesis_proposal.tex" 1601310736 3863 4f812971a491035b63a4a66c142a614f ""
   (generated)
+  "thesis_proposal.out"
   "/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/thesis_proposal.log"
   "thesis_proposal-blx.bib"
+  "thesis_proposal.run.xml"
+  "thesis_proposal.pdf"
   "thesis_proposal.aux"
   "thesis_proposal.log"
-  "thesis_proposal.out"
   "/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/thesis_proposal.pdf"
-  "thesis_proposal.pdf"
-  "thesis_proposal.run.xml"
