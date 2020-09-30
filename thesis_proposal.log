@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.11)  30 SEP 2020 13:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.11)  30 SEP 2020 17:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1235,38 +1235,38 @@ Package biblatex Info: Reference section=0 on input line 72.
 Package biblatex Info: Reference segment=0 on input line 72.
  (/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/sections/motivations.tex [1
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]) (/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/sections/reference.tex) (/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/sections/related.tex) (/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/sections/goals.tex
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]) (/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/sections/reference.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 4.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
-) (/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/sections/researchplan.tex) [3] [4]
+) (/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/sections/related.tex [3]) (/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/sections/goals.tex) (/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/sections/researchplan.tex) [4] [5]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (/Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/thesis_proposal.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `thesis_proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 548A650D98214A2BDADE22DC031172CB;290.
+(rerunfilecheck)             Checksum: 92C39A9917E072E53C86B1B35B80A6E7;551.
 Package logreq Info: Writing requests to 'thesis_proposal.run.xml'.
 \openout1 = `thesis_proposal.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48924 strings out of 492616
- 1067189 string characters out of 6129481
+ 48948 strings out of 492616
+ 1067840 string characters out of 6129481
  1702226 words of memory out of 5000000
- 52064 multiletter control sequences out of 15000+600000
- 548302 words of font info for 69 fonts, out of 8000000 for 9000
+ 52078 multiletter control sequences out of 15000+600000
+ 549078 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,7n,98p,3326b,1430s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on /Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/thesis_proposal.pdf (4 pages, 165522 bytes).
+ 64i,7n,98p,3326b,1474s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on /Users/federicodassereto/Desktop/UNI/PhD/ThesisProposal/thesis_proposal.pdf (5 pages, 203405 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 

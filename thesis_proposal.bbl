@@ -17,7 +17,7 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
-  \entry{bizer2011linked}{incollection}{}
+  \entry{bizer2009linked}{incollection}{}
     \name{author}{3}{}{%
       {{hash=BC}{%
          family={Bizer},
@@ -51,7 +51,7 @@
   emerging concepts}
     \field{pages}{205\bibrangedash 227}
     \field{title}{Linked data: The story so far}
-    \field{year}{2011}
+    \field{year}{2009}
   \endentry
 
   \entry{cappuzzo2020creating}{inproceedings}{}
@@ -87,6 +87,41 @@
     \field{title}{Creating embeddings of heterogeneous relational datasets for
   data integration tasks}
     \field{year}{2020}
+  \endentry
+
+  \entry{beyza2019linked}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=CB}{%
+         family={Catania},
+         familyi={C\bibinitperiod},
+         given={Barbara},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GG}{%
+         family={Guerrini},
+         familyi={G\bibinitperiod},
+         given={Giovanna},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=YB}{%
+         family={Yaman},
+         familyi={Y\bibinitperiod},
+         given={Beyza},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CBGGYB1}
+    \strng{fullhash}{CBGGYB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{Proceedings of the 34th ACM/SIGAPP Symposium on Applied
+  Computing}
+    \field{pages}{2251–2258}
+    \field{title}{Exploiting Context and Quality for Linked Data Source
+  Selection}
+    \field{year}{2019}
   \endentry
 
   \entry{chepurko2020arda}{article}{}
@@ -137,6 +172,144 @@
     \field{title}{ARDA: Automatic Relational Data Augmentation for Machine
   Learning}
     \field{journaltitle}{arXiv preprint arXiv:2003.09758}
+    \field{year}{2020}
+  \endentry
+
+  \entry{dassereto2019evaluating}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=DF}{%
+         family={Dassereto},
+         familyi={D\bibinitperiod},
+         given={Federico},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=DRL}{%
+         family={Di\bibnamedelima Rocco},
+         familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Laura},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GG}{%
+         family={Guerrini},
+         familyi={G\bibinitperiod},
+         given={Giovanna},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bertolotto},
+         familyi={B\bibinitperiod},
+         given={Michela},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DF+1}
+    \strng{fullhash}{DFDRLGGBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{booktitle}{The Annual International Conference on Geographic
+  Information Science}
+    \field{pages}{41\bibrangedash 57}
+    \field{title}{Evaluating the effectiveness of embeddings in representing
+  the structure of geospatial ontologies}
+    \field{year}{2019}
+  \endentry
+
+  \entry{dassereto2020tuning}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=DF}{%
+         family={Dassereto},
+         familyi={D\bibinitperiod},
+         given={Federico},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=DRL}{%
+         family={Di\bibnamedelima Rocco},
+         familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Laura},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Shaw},
+         familyi={S\bibinitperiod},
+         given={Shanley},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GG}{%
+         family={Guerrini},
+         familyi={G\bibinitperiod},
+         given={Giovanna},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bertolotto},
+         familyi={B\bibinitperiod},
+         given={Michela},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DF+1}
+    \strng{fullhash}{DFDRLSSGGBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{booktitle}{Under Submission..}
+    \field{title}{How to Tune Embedding Parameters in Geographical Ontologies}
+    \field{year}{2020}
+  \endentry
+
+  \entry{di2020sherloc}{article}{}
+    \name{author}{6}{}{%
+      {{hash=DRL}{%
+         family={Di\bibnamedelima Rocco},
+         familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Laura},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DF}{%
+         family={Dassereto},
+         familyi={D\bibinitperiod},
+         given={Federico},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bertolotto},
+         familyi={B\bibinitperiod},
+         given={Michela},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Buscaldi},
+         familyi={B\bibinitperiod},
+         given={Davide},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Catania},
+         familyi={C\bibinitperiod},
+         given={Barbara},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GG}{%
+         family={Guerrini},
+         familyi={G\bibinitperiod},
+         given={Giovanna},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DRL+1}
+    \strng{fullhash}{DRLDFBMBDCBGG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{pages}{1\bibrangedash 32}
+    \field{title}{Sherloc: a knowledge-driven algorithm for geolocating
+  microblog messages at sub-city level}
+    \field{journaltitle}{International Journal of Geographical Information
+  Science}
     \field{year}{2020}
   \endentry
 
