@@ -16,5 +16,282 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}\enddatalist
+\datalist[entry]{nty/global//global/global}
+  \entry{bizer2011linked}{incollection}{}
+    \name{author}{3}{}{%
+      {{hash=BC}{%
+         family={Bizer},
+         familyi={B\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Heath},
+         familyi={H\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BLT}{%
+         family={Berners-Lee},
+         familyi={B\bibinithyphendelim L\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IGI Global}%
+    }
+    \strng{namehash}{BCHTBLT1}
+    \strng{fullhash}{BCHTBLT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{Semantic services, interoperability and web applications:
+  emerging concepts}
+    \field{pages}{205\bibrangedash 227}
+    \field{title}{Linked data: The story so far}
+    \field{year}{2011}
+  \endentry
+
+  \entry{cappuzzo2020creating}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=CR}{%
+         family={Cappuzzo},
+         familyi={C\bibinitperiod},
+         given={Riccardo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Papotti},
+         familyi={P\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Thirumuruganathan},
+         familyi={T\bibinitperiod},
+         given={Saravanan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CRPPTS1}
+    \strng{fullhash}{CRPPTS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{Proceedings of the 2020 ACM SIGMOD International
+  Conference on Management of Data}
+    \field{pages}{1335\bibrangedash 1349}
+    \field{title}{Creating embeddings of heterogeneous relational datasets for
+  data integration tasks}
+    \field{year}{2020}
+  \endentry
+
+  \entry{chepurko2020arda}{article}{}
+    \name{author}{6}{}{%
+      {{hash=CN}{%
+         family={Chepurko},
+         familyi={C\bibinitperiod},
+         given={Nadiia},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Marcus},
+         familyi={M\bibinitperiod},
+         given={Ryan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ZE}{%
+         family={Zgraggen},
+         familyi={Z\bibinitperiod},
+         given={Emanuel},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=FRC}{%
+         family={Fernandez},
+         familyi={F\bibinitperiod},
+         given={Raul\bibnamedelima Castro},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Kraska},
+         familyi={K\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Karger},
+         familyi={K\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CN+1}
+    \strng{fullhash}{CNMRZEFRCKTKD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{ARDA: Automatic Relational Data Augmentation for Machine
+  Learning}
+    \field{journaltitle}{arXiv preprint arXiv:2003.09758}
+    \field{year}{2020}
+  \endentry
+
+  \entry{kumar2016join}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=KA}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Arun},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Naughton},
+         familyi={N\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PJM}{%
+         family={Patel},
+         familyi={P\bibinitperiod},
+         given={Jignesh\bibnamedelima M},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Xiaojin},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KA+1}
+    \strng{fullhash}{KANJPJMZX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{booktitle}{Proceedings of the 2016 International Conference on
+  Management of Data}
+    \field{pages}{19\bibrangedash 34}
+    \field{title}{To join or not to join? thinking twice about joins before
+  feature selection}
+    \field{year}{2016}
+  \endentry
+
+  \entry{mcafee2012big}{article}{}
+    \name{author}{5}{}{%
+      {{hash=MA}{%
+         family={McAfee},
+         familyi={M\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Brynjolfsson},
+         familyi={B\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DTH}{%
+         family={Davenport},
+         familyi={D\bibinitperiod},
+         given={Thomas\bibnamedelima H},
+         giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Patil},
+         familyi={P\bibinitperiod},
+         given={DJ},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Barton},
+         familyi={B\bibinitperiod},
+         given={Dominic},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MA+1}
+    \strng{fullhash}{MABEDTHPDBD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{10}
+    \field{pages}{60\bibrangedash 68}
+    \field{title}{Big data: the management revolution}
+    \field{volume}{90}
+    \field{journaltitle}{Harvard business review}
+    \field{year}{2012}
+  \endentry
+
+  \entry{mikolov2013efficient}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MT}{%
+         family={Mikolov},
+         familyi={M\bibinitperiod},
+         given={Tomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CK}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Kai},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Corrado},
+         familyi={C\bibinitperiod},
+         given={Greg},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dean},
+         familyi={D\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MT+1}
+    \strng{fullhash}{MTCKCGDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Efficient estimation of word representations in vector space}
+    \field{journaltitle}{arXiv preprint arXiv:1301.3781}
+    \field{year}{2013}
+  \endentry
+
+  \entry{nickel2017poincare}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=NM}{%
+         family={Nickel},
+         familyi={N\bibinitperiod},
+         given={Maximillian},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kiela},
+         familyi={K\bibinitperiod},
+         given={Douwe},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NMKD1}
+    \strng{fullhash}{NMKD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{booktitle}{Advances in neural information processing systems}
+    \field{pages}{6338\bibrangedash 6347}
+    \field{title}{Poincar{\'e} embeddings for learning hierarchical
+  representations}
+    \field{year}{2017}
+  \endentry
+\enddatalist
 \endinput
