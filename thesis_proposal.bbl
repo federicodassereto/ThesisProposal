@@ -733,6 +733,35 @@
     \field{year}{2018}
   \endentry
 
+  \entry{he2003statistical}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=HB}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Bin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CKCC}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Kevin Chen-Chuan},
+         giveni={K\bibinitperiod\bibinitdelim C\bibinithyphendelim
+  C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HBCKCC1}
+    \strng{fullhash}{HBCKCC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{booktitle}{Proceedings of the 2003 ACM SIGMOD international
+  conference on Management of data}
+    \field{pages}{217\bibrangedash 228}
+    \field{title}{Statistical schema matching across web query interfaces}
+    \field{year}{2003}
+  \endentry
+
   \entry{indyk1998approximate}{inproceedings}{}
     \name{author}{2}{}{%
       {{hash=IP}{%
@@ -760,6 +789,34 @@
     \field{title}{Approximate nearest neighbors: towards removing the curse of
   dimensionality}
     \field{year}{1998}
+  \endentry
+
+  \entry{kang2003schema}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=KJ}{%
+         family={Kang},
+         familyi={K\bibinitperiod},
+         given={Jaewoo},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=NJF}{%
+         family={Naughton},
+         familyi={N\bibinitperiod},
+         given={Jeffrey\bibnamedelima F},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KJNJF1}
+    \strng{fullhash}{KJNJF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{booktitle}{Proceedings of the 2003 ACM SIGMOD international
+  conference on Management of data}
+    \field{pages}{205\bibrangedash 216}
+    \field{title}{On schema matching with opaque column names and data values}
+    \field{year}{2003}
   \endentry
 
   \entry{krioukov2010hyperbolic}{article}{}
@@ -1075,6 +1132,47 @@
     \field{year}{2013}
   \endentry
 
+  \entry{nargesian2018table}{article}{}
+    \name{author}{4}{}{%
+      {{hash=NF}{%
+         family={Nargesian},
+         familyi={N\bibinitperiod},
+         given={Fatemeh},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=ZE}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Erkang},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=PKQ}{%
+         family={Pu},
+         familyi={P\bibinitperiod},
+         given={Ken\bibnamedelima Q},
+         giveni={K\bibinitperiod\bibinitdelim Q\bibinitperiod},
+      }}%
+      {{hash=MRJ}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={Ren{\'e}e\bibnamedelima J},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NF+1}
+    \strng{fullhash}{NFZEPKQMRJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{number}{7}
+    \field{pages}{813\bibrangedash 825}
+    \field{title}{Table union search on open data}
+    \field{volume}{11}
+    \field{journaltitle}{Proceedings of the VLDB Endowment}
+    \field{year}{2018}
+  \endentry
+
   \entry{DBLP:journals/corr/abs-1806-03417}{article}{}
     \name{author}{2}{}{%
       {{hash=NM}{%
@@ -1291,6 +1389,27 @@
     \field{title}{Deep contextualized word representations}
     \field{journaltitle}{arXiv preprint arXiv:1802.05365}
     \field{year}{2018}
+  \endentry
+
+  \entry{rahm2011towards}{incollection}{}
+    \name{author}{1}{}{%
+      {{hash=RE}{%
+         family={Rahm},
+         familyi={R\bibinitperiod},
+         given={Erhard},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RE1}
+    \strng{fullhash}{RE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{booktitle}{Schema matching and mapping}
+    \field{pages}{3\bibrangedash 27}
+    \field{title}{Towards large-scale schema and ontology matching}
+    \field{year}{2011}
   \endentry
 
   \entry{sala2018representation}{inproceedings}{}
