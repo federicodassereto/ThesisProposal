@@ -2,8 +2,43 @@
 In this section, we present related work that we consider relevant for the proposed research project. In order to facilitate reading, the discussion has been organized into fuor main sections, corresponding to the main concepts introduced in Section \ref{motivations} and \ref{reference}. Each of the four sections is in turn divided into sub-parts to further facilitate reading. The first one discusses embeddings approaches and their relevance to the proposal, the second introduces Open Data and their common operations, the third provides an overview of existing augmentation approaches and finally the fourth reviews functional dependencies discovery approaches.
 
 \subsection{Embeddings}
+Embeddings allow to capture non-geometric data in a mathematical structure, useful for easier comparison of data. A lot of attention has been devoted to word embeddings, i.e., embedding of documents in which every word is represented by a vector. 
+
+Word embeddings have been proposed in a NLP context thanks to their ability to capture semantic relations among words in a text. 
+Word2Vec \cite{Mikolov2013EfficientEO} is an example of a pre-trained embedding that embeds into Euclidean Space. 
+Later, other embedding techniques like GloVe \cite{pennington2014glove}, BERT \cite{devlin2018bert} and ELMo \cite{peters2018deep} have been proposed, only to mention the most famous. 
+All these algorithms belong to the family of Euclidean embeddings, i.e., project texts onto a Euclidean space. 
+Although these methods are very effective on texts, they fail to well capture a different kind of sources such as graphical structures \cite{NIPS2017_7213}. 
+
+In contrast, hyperbolic embeddings are particularly suitable to embed hierarchical data. 
+As described in \cite{krioukov2010hyperbolic}, hierarchical structures show a hidden hyperbolic geometry. 
+On such observation, many hyperbolic embeddings have been proposed: the Poincar\'e Disk Model \cite{NIPS2017_7213}, the Lorentz Model \cite{DBLP:journals/corr/abs-1806-03417} and a convex entailment cones approach \cite{ganea2018hyperbolic}. 
+It is worth to notice that Poincar\'e and Lorentz models produce the same projection in different spaces; the only difference is in the way they are computed, since the Lorentz model leads to more stable computations. 
+Finally, a mixed approach was proposed in \cite{gu2018learning} to take advantage of the properties of both hyperbolic and Euclidean spaces. 
+
+Along with the rise of word embeddings, the need of quality indicators for these structures raised too. 
+Initially, a common way of calculating the quality of embeddings was not developed. 
+In fact, each embedding algorithm was evaluated in a task-dependent way, which means that if the embedding performs well on a particular task it is considered "good". 
+Recently, the concept of distortion was introduced in \cite{sala2018representation} and slightly modified in \cite{dassereto2019evaluating}. 
+To the best of our knowledge, \cite{dassereto2019evaluating} is the first attempt to evaluate the use of embeddings in a geographical context. 
+The distortion essentially measures how well the distances in original metric space are preserved in the embedding. Thus, it can be seen as a task-independent evaluation. In hyperbolic embeddings all the links between entities in the structure are treated equally, but this could not be always the case; in such a situation, Knowledge Graphs Embeddings (KGE) can be applied. 
+
+A very effective algorithm called TransE was proposed in \cite{bordes2013translating}, in which embeddings are learned in translational way; this work generated many variants such as TransH \cite{wang2014knowledge} and TransR \cite{lin2015learning}. 
+% Few approaches have been proposed to integrate embeddings in a geospatial context, for example in \cite{di2020sherloc} they are used to search semantic neighbors of geographical terms, while in \cite{mai2019relaxing} they are exploited to relax unanswerable geographic questions. 
+Finally, hybrid approaches mixing hyperbolic and Euclidean embeddings have been proposed, based on the observation that in a text there are many asymmetric word relations. The main approaches in this direction are an adaption of GloVe in a Cartesian product of spaces \cite{tifrea2018poincare} and a learning model in a spherical space \cite{meng2019spherical}.  
+{\color{red}{AGGIUNGI Papotti e Keynote PODS.}}
+
 
 \subsection{Open Data}
+The growth of Open Data diffusion has been possible thanks to fact that many organizations publish their data following the Open Data principles \cite{bizer2009linked}. As discussed in Section \ref{motivations}, these data are continuosly produce and stored; their dynamic nature makes it impossible to apply previous managment techniques, such as the creation of a global schema \cite{10.1145/27633.27634} and to keeping track of joins path known or mined from the data\cite{fagin2009clio,deng2017data}. All of the above mentioned techniques requires tables to have schema information or meaningful attribute names, as well as managing pre-computed join-paths. Both the fact are intractable for an open platform at Internet scale, since the number of tables can easily reach millions or more. The most relevant task while dealing with Open Data is definitely the discovery part, which include searching for tables containing specific value(s) based on keywords \cite{brickley2019google} or contaiment. Reconnecting to what we discussed in Section \ref{motivations}, we further indentify two macro-areas in Open Data discovery, namely Join Search and Union Search.
+\bigbreak
+
+\textbf{Join Search.} Given a query table $T_q(A_1,A_2,...)$ with join attribute $A_j$, a joinable table is a relation $T(B_1, B_2,...)$ such that $T$ has at least one attribute $B_i$ that is equi-joinable with $A_j$. To be more precise, the values in the two attributes must have significant overlap. The problem has been largely posed as set similarity search, where the attributes values are sets and a similarity function determines the relatedness. A frequent similarity function is the Jaccard Index, which suffers to problem of unfairly advantages small domains \cite{zhu2016lsh}. Many solutions have been proposed exploting this idea, but they all work under the assumption of having tables with average sets size ranging from few columns to a maximum of few hundreds. This is not the case of open data lakes, where there hundreds of thousands of tables possibily with millions of rows. To solve this issue, a new similarity measure called containment have been proposed in LSH Ensemble \cite{zhu2016lsh}, where an index based on locality-sensitive hashing \cite{gionis1999similarity} and MinHash \cite{indyk1998approximate} poses the problem as a domain search, where each attribute of a table is a domain. LSH Ensemble requires on a threshold value, making it an approximate algorithm for joining tables discovery. The family of approximate algorithms are scalable in performance, however they tend to suffer from false positive and negative errors, especially when the distribution of set sizes is skewed (as often in data lakes). Furthermore, using a threshold may confuse users, who have no knowledge of what data exists in the lake and therefore do not know what is a good threshold that will retrieve some, but not too many answers. A possible alternative to threshold search is to retrieve the top-k tables with higher contaiment. Another effective algorithm for join search is JOSIE \cite{zhu2019josie}, a scalable exact top-k overlap set similarity search algorithm. JOSIE minimizes the cost of set reads and exploits an inverted index to find the top-k sets. Due to its inverted index structure and the prefix filter, a fast trick to solve the threshold version of set similarity search problem \cite{chaudhuri2006primitive}, JOSIE outperforms its approximate counterparts for small k.
+\bigbreak
+
+\textbf{Union Search.} Given a query table $T_q(A_1,A_2,...,A_n)$ with $n$ attributes, a unionable table is a table $T(B_1, B_2,...,B_k)$ such that $T$ has at least one attribute $B_i$ that is unionable with some attribute $A_j$ from the query table. Unionability means that, given attribute $A_j$ and its domain (set of values), and attribute $B_i$ and its domain, it is likely to exist a third domain $D$ from which both $A_j$ and $B_i$ are sampled.
+
+
 
 \subsection{Augmentation Approaches}
 
