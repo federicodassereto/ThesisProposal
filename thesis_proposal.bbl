@@ -17,6 +17,40 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{abedjan2014dfd}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=AZ}{%
+         family={Abedjan},
+         familyi={A\bibinitperiod},
+         given={Ziawasch},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Schulze},
+         familyi={S\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=NF}{%
+         family={Naumann},
+         familyi={N\bibinitperiod},
+         given={Felix},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AZSPNF1}
+    \strng{fullhash}{AZSPNF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{booktitle}{Proceedings of the 23rd ACM International Conference on
+  Conference on Information and Knowledge Management}
+    \field{pages}{949\bibrangedash 958}
+    \field{title}{DFD: Efficient functional dependency discovery}
+    \field{year}{2014}
+  \endentry
+
   \entry{10.1145/27633.27634}{article}{}
     \name{author}{3}{}{%
       {{hash=BC}{%
@@ -87,6 +121,86 @@
     \field{year}{2009}
   \endentry
 
+  \entry{blasius2017parameterized}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=BT}{%
+         family={Bl{\"a}sius},
+         familyi={B\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Friedrich},
+         familyi={F\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schirneck},
+         familyi={S\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik}%
+    }
+    \strng{namehash}{BTFTSM1}
+    \strng{fullhash}{BTFTSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{11th International Symposium on Parameterized and Exact
+  Computation (IPEC 2016)}
+    \field{title}{The parameterized complexity of dependency detection in
+  relational databases}
+    \field{year}{2017}
+  \endentry
+
+  \entry{bogatu2020dataset}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=BA}{%
+         family={Bogatu},
+         familyi={B\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FAA}{%
+         family={Fernandes},
+         familyi={F\bibinitperiod},
+         given={Alvaro\bibnamedelima AA},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PNW}{%
+         family={Paton},
+         familyi={P\bibinitperiod},
+         given={Norman\bibnamedelima W},
+         giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Konstantinou},
+         familyi={K\bibinitperiod},
+         given={Nikolaos},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{BA+1}
+    \strng{fullhash}{BAFAAPNWKN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{2020 IEEE 36th International Conference on Data
+  Engineering (ICDE)}
+    \field{pages}{709\bibrangedash 720}
+    \field{title}{Dataset Discovery in Data Lakes}
+    \field{year}{2020}
+  \endentry
+
   \entry{bordes2013translating}{inproceedings}{}
     \name{author}{5}{}{%
       {{hash=BA}{%
@@ -120,7 +234,7 @@
          giveni={O\bibinitperiod},
       }}%
     }
-    \strng{namehash}{BA+1}
+    \strng{namehash}{BA+2}
     \strng{fullhash}{BAUNGDAWJYO1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -660,6 +774,61 @@
     \field{year}{2016}
   \endentry
 
+  \entry{fernandez2018aurum}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=FRC}{%
+         family={Fernandez},
+         familyi={F\bibinitperiod},
+         given={Raul\bibnamedelima Castro},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=AZ}{%
+         family={Abedjan},
+         familyi={A\bibinitperiod},
+         given={Ziawasch},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=KF}{%
+         family={Koko},
+         familyi={K\bibinitperiod},
+         given={Famien},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=YG}{%
+         family={Yuan},
+         familyi={Y\bibinitperiod},
+         given={Gina},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Madden},
+         familyi={M\bibinitperiod},
+         given={Samuel},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Stonebraker},
+         familyi={S\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{FRC+1}
+    \strng{fullhash}{FRCAZKFYGMSSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{booktitle}{2018 IEEE 34th International Conference on Data
+  Engineering (ICDE)}
+    \field{pages}{1001\bibrangedash 1012}
+    \field{title}{Aurum: A data discovery system}
+    \field{year}{2018}
+  \endentry
+
   \entry{ganea2018hyperbolic}{article}{}
     \name{author}{3}{}{%
       {{hash=GOE}{%
@@ -794,6 +963,48 @@
     \field{pages}{217\bibrangedash 228}
     \field{title}{Statistical schema matching across web query interfaces}
     \field{year}{2003}
+  \endentry
+
+  \entry{huhtala1999tane}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HY}{%
+         family={Huhtala},
+         familyi={H\bibinitperiod},
+         given={Yka},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={K{\"a}rkk{\"a}inen},
+         familyi={K\bibinitperiod},
+         given={Juha},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Porkka},
+         familyi={P\bibinitperiod},
+         given={Pasi},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TH}{%
+         family={Toivonen},
+         familyi={T\bibinitperiod},
+         given={Hannu},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HY+1}
+    \strng{fullhash}{HYKJPPTH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{2}
+    \field{pages}{100\bibrangedash 111}
+    \field{title}{TANE: An efficient algorithm for discovering functional and
+  approximate dependencies}
+    \field{volume}{42}
+    \field{journaltitle}{The computer journal}
+    \field{year}{1999}
   \endentry
 
   \entry{indyk1998approximate}{inproceedings}{}
@@ -984,6 +1195,78 @@
     \field{title}{Learning entity and relation embeddings for knowledge graph
   completion}
     \field{year}{2015}
+  \endentry
+
+  \entry{lopes2000efficient}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=LS}{%
+         family={Lopes},
+         familyi={L\bibinitperiod},
+         given={St{\'e}phane},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PJM}{%
+         family={Petit},
+         familyi={P\bibinitperiod},
+         given={Jean-Marc},
+         giveni={J\bibinithyphendelim M\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Lakhal},
+         familyi={L\bibinitperiod},
+         given={Lotfi},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{LSPJMLL1}
+    \strng{fullhash}{LSPJMLL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{booktitle}{International Conference on Extending Database
+  Technology}
+    \field{pages}{350\bibrangedash 364}
+    \field{title}{Efficient discovery of functional dependencies and armstrong
+  relations}
+    \field{year}{2000}
+  \endentry
+
+  \entry{mandros2017discovering}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=MP}{%
+         family={Mandros},
+         familyi={M\bibinitperiod},
+         given={Panagiotis},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Boley},
+         familyi={B\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Vreeken},
+         familyi={V\bibinitperiod},
+         given={Jilles},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MPBMVJ1}
+    \strng{fullhash}{MPBMVJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{Proceedings of the 23rd ACM SIGKDD International
+  Conference on Knowledge Discovery and Data Mining}
+    \field{pages}{355\bibrangedash 363}
+    \field{title}{Discovering reliable approximate functional dependencies}
+    \field{year}{2017}
   \endentry
 
   \entry{mcafee2012big}{article}{}
@@ -1335,6 +1618,41 @@
     \field{year}{2017}
   \endentry
 
+  \entry{pennerath2020discovering}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=PF}{%
+         family={Pennerath},
+         familyi={P\bibinitperiod},
+         given={Fr{\'e}d{\'e}ric},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={Mandros},
+         familyi={M\bibinitperiod},
+         given={Panagiotis},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Vreeken},
+         familyi={V\bibinitperiod},
+         given={Jilles},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PFMPVJ1}
+    \strng{fullhash}{PFMPVJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{booktitle}{Proceedings of the 26th ACM SIGKDD International
+  Conference on Knowledge Discovery \& Data Mining}
+    \field{pages}{1254\bibrangedash 1264}
+    \field{title}{Discovering Approximate Functional Dependencies using
+  Smoothed Mutual Information}
+    \field{year}{2020}
+  \endentry
+
   \entry{pennington2014glove}{inproceedings}{}
     \name{author}{3}{}{%
       {{hash=PJ}{%
@@ -1484,6 +1802,41 @@
     \field{year}{2018}
   \endentry
 
+  \entry{shah2017key}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SV}{%
+         family={Shah},
+         familyi={S\bibinitperiod},
+         given={Vraj},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Arun},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Xiaojin},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SVKAZX1}
+    \strng{fullhash}{SVKAZX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{3}
+    \field{title}{Are Key-Foreign Key Joins Safe to Avoid when Learning
+  High-Capacity Classifiers?}
+    \field{volume}{11}
+    \field{journaltitle}{Proceedings of the VLDB Endowment}
+    \field{year}{2017}
+  \endentry
+
   \entry{tifrea2018poincare}{inproceedings}{}
     \name{author}{3}{}{%
       {{hash=TA}{%
@@ -1514,6 +1867,42 @@
     \field{booktitle}{International Conference on Learning Representations}
     \field{title}{Poincare Glove: Hyperbolic Word Embeddings}
     \field{year}{2018}
+  \endentry
+
+  \entry{wang2001incremental}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=WSL}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Shyue-Liang},
+         giveni={S\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=SJW}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Ju-Wen},
+         giveni={J\bibinithyphendelim W\bibinitperiod},
+      }}%
+      {{hash=HTP}{%
+         family={Hong},
+         familyi={H\bibinitperiod},
+         given={Tzung-Pei},
+         giveni={T\bibinithyphendelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WSLSJWHTP1}
+    \strng{fullhash}{WSLSJWHTP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{booktitle}{Proceedings Joint 9th IFSA World Congress and 20th NAFIPS
+  International Conference (Cat. No. 01TH8569)}
+    \field{pages}{1322\bibrangedash 1326}
+    \field{title}{Incremental discovery of functional dependencies using
+  partitions}
+    \field{volume}{3}
+    \field{year}{2001}
   \endentry
 
   \entry{wang2014knowledge}{inproceedings}{}
@@ -1555,6 +1944,41 @@
     \field{title}{Knowledge graph embedding by translating on hyperplanes.}
     \field{volume}{14}
     \field{year}{2014}
+  \endentry
+
+  \entry{wyss2001fastfds}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=WC}{%
+         family={Wyss},
+         familyi={W\bibinitperiod},
+         given={Catharine},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Giannella},
+         familyi={G\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RE}{%
+         family={Robertson},
+         familyi={R\bibinitperiod},
+         given={Edward},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WCGCRE1}
+    \strng{fullhash}{WCGCRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{booktitle}{International Conference on Data Warehousing and
+  Knowledge Discovery}
+    \field{pages}{101\bibrangedash 110}
+    \field{title}{Fastfds: A heuristic-driven, depth-first algorithm for mining
+  functional dependencies from relation instances extended abstract}
+    \field{year}{2001}
   \endentry
 
   \entry{zhu2019josie}{inproceedings}{}
