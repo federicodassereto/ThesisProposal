@@ -626,6 +626,40 @@
     \field{year}{2009}
   \endentry
 
+  \entry{fan2016functional}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=FW}{%
+         family={Fan},
+         familyi={F\bibinitperiod},
+         given={Wenfei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Yinghui},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=XJ}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Jingbo},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FWWYXJ1}
+    \strng{fullhash}{FWWYXJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{booktitle}{Proceedings of the 2016 International Conference on
+  Management of Data}
+    \field{pages}{1843\bibrangedash 1857}
+    \field{title}{Functional dependencies for graphs}
+    \field{year}{2016}
+  \endentry
+
   \entry{ganea2018hyperbolic}{article}{}
     \name{author}{3}{}{%
       {{hash=GOE}{%

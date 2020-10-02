@@ -26,7 +26,9 @@ The distortion essentially measures how well the distances in original metric sp
 A very effective algorithm called TransE was proposed in \cite{bordes2013translating}, in which embeddings are learned in translational way; this work generated many variants such as TransH \cite{wang2014knowledge} and TransR \cite{lin2015learning}. 
 % Few approaches have been proposed to integrate embeddings in a geospatial context, for example in \cite{di2020sherloc} they are used to search semantic neighbors of geographical terms, while in \cite{mai2019relaxing} they are exploited to relax unanswerable geographic questions. 
 Finally, hybrid approaches mixing hyperbolic and Euclidean embeddings have been proposed, based on the observation that in a text there are many asymmetric word relations. The main approaches in this direction are an adaption of GloVe in a Cartesian product of spaces \cite{tifrea2018poincare} and a learning model in a spherical space \cite{meng2019spherical}.  
-{\color{red}{AGGIUNGI Papotti e Keynote PODS.}}
+
+As mentioned in Section \ref{motivations}, a preliminary approach exploting embeddings for data integration tasks have been proposed \cite{cappuzzo2020creating}. In such an approach, tables are represented as graphs, by adding nodes representing columns and rows identifiers and then embedding in Euclidean spaces following the random walks framework. The drawback of such an approach is that it is know thle context from which each table comes from, making it unsuitable for our scenario.
+{\color{red}{AGGIUNGI Keynote PODS qua o sopra in motivations(meglio)}}
 
 
 \subsection{Open Data}
@@ -42,5 +44,5 @@ The growth of Open Data diffusion has been possible thanks to fact that many org
 \subsection{Augmentation Approaches}
 
 
-\subsection{Functional Dependencies}
+\subsection{Functional Dependencies}\label{fds}
 Functional dependencies (FDs) express relationships between attributes of a database relation. An FD $X$ $\rightarrow$ $A$ states that the values of attribute set X \textit{uniquely} determine the values of attribute $A$.
