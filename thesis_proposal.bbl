@@ -898,6 +898,29 @@
     \field{year}{1999}
   \endentry
 
+  \entry{grohe2020word2vec}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=GM}{%
+         family={Grohe},
+         familyi={G\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GM1}
+    \strng{fullhash}{GM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{booktitle}{Proceedings of the 39th ACM SIGMOD-SIGACT-SIGAI Symposium
+  on Principles of Database Systems}
+    \field{pages}{1\bibrangedash 16}
+    \field{title}{word2vec, node2vec, graph2vec, x2vec: Towards a theory of
+  vector embeddings of structured data}
+    \field{year}{2020}
+  \endentry
+
   \entry{gu2018learning}{inproceedings}{}
     \name{author}{4}{}{%
       {{hash=GA}{%
