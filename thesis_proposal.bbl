@@ -51,6 +51,47 @@
     \field{year}{2014}
   \endentry
 
+  \entry{arocena2015ibench}{article}{}
+    \name{author}{4}{}{%
+      {{hash=APC}{%
+         family={Arocena},
+         familyi={A\bibinitperiod},
+         given={Patricia\bibnamedelima C},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=GB}{%
+         family={Glavic},
+         familyi={G\bibinitperiod},
+         given={Boris},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Ciucanu},
+         familyi={C\bibinitperiod},
+         given={Radu},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MRJ}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={Ren{\'e}e\bibnamedelima J},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{APC+1}
+    \strng{fullhash}{APCGBCRMRJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{3}
+    \field{pages}{108\bibrangedash 119}
+    \field{title}{The iBench integration metadata generator}
+    \field{volume}{9}
+    \field{journaltitle}{Proceedings of the VLDB Endowment}
+    \field{year}{2015}
+  \endentry
+
   \entry{10.1145/27633.27634}{article}{}
     \name{author}{3}{}{%
       {{hash=BC}{%
@@ -959,6 +1000,40 @@
     \field{year}{2018}
   \endentry
 
+  \entry{hai2016constance}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=HR}{%
+         family={Hai},
+         familyi={H\bibinitperiod},
+         given={Rihan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Geisler},
+         familyi={G\bibinitperiod},
+         given={Sandra},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=QC}{%
+         family={Quix},
+         familyi={Q\bibinitperiod},
+         given={Christoph},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HRGSQC1}
+    \strng{fullhash}{HRGSQC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{booktitle}{Proceedings of the 2016 International Conference on
+  Management of Data}
+    \field{pages}{2097\bibrangedash 2100}
+    \field{title}{Constance: An intelligent data lake system}
+    \field{year}{2016}
+  \endentry
+
   \entry{he2003statistical}{inproceedings}{}
     \name{author}{2}{}{%
       {{hash=HB}{%
@@ -1860,6 +1935,35 @@
     \field{year}{2017}
   \endentry
 
+  \entry{suriarachchi2016crossing}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=SI}{%
+         family={Suriarachchi},
+         familyi={S\bibinitperiod},
+         given={Isuru},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=PB}{%
+         family={Plale},
+         familyi={P\bibinitperiod},
+         given={Beth},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SIPB1}
+    \strng{fullhash}{SIPB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{2016 IEEE 12th International Conference on e-Science
+  (e-Science)}
+    \field{pages}{349\bibrangedash 354}
+    \field{title}{Crossing analytics systems: A case for integrated provenance
+  in data lakes}
+    \field{year}{2016}
+  \endentry
+
   \entry{tifrea2018poincare}{inproceedings}{}
     \name{author}{3}{}{%
       {{hash=TA}{%
@@ -1890,6 +1994,34 @@
     \field{booktitle}{International Conference on Learning Representations}
     \field{title}{Poincare Glove: Hyperbolic Word Embeddings}
     \field{year}{2018}
+  \endentry
+
+  \entry{walker2015personal}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=WC}{%
+         family={Walker},
+         familyi={W\bibinitperiod},
+         given={Coral},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AH}{%
+         family={Alrehamy},
+         familyi={A\bibinitperiod},
+         given={Hassan},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WCAH1}
+    \strng{fullhash}{WCAH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{booktitle}{2015 IEEE Fifth International Conference on Big Data and
+  Cloud Computing}
+    \field{pages}{160\bibrangedash 167}
+    \field{title}{Personal data lake with data gravity pull}
+    \field{year}{2015}
   \endentry
 
   \entry{wang2001incremental}{inproceedings}{}
