@@ -2,7 +2,7 @@
 \documentclass[a4paper,11pt, english]{article}
 
 %%%%%%%%%%%% Packages
-\usepackage[table]{xcolor}         			% coloured text
+\usepackage[table]{xcolor}         			% colored text
 \usepackage{smartdiagram}
 \usepackage{adjustbox}
 \usepackage{changepage}
@@ -18,7 +18,7 @@
 \usepackage[all]{xy}         			% diagrams
 \usepackage{amssymb}				% \mathbb and others
 \usepackage{amsthm}				% theorem styles
-\usepackage{amsmath}				% Declair math operator
+\usepackage{amsmath}				% Declare math operator
 \usepackage{enumerate}       			% many possible numerations
 \usepackage{manfnt,xspace}			%% added package
 \usepackage[a4paper,top=3cm, bottom=3cm, left=3cm, right=3cm]{geometry}
@@ -79,12 +79,10 @@
 \vspace{1cm}
 
 \begin{abstract}
-    %A-o meu neuo gh'é neue nae neue: a ciù neua de neue nae neue a n'eu anâ.
-    Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. In rutrum. Sed ac dolor sit amet purus malesuada congue. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Suspendisse sagittis ultrices augue. Mauris metus. Nunc dapibus tortor vel mi dapibus sollicitudin. Etiam posuere lacus quis dolor. Praesent id justo in neque elementum ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. In convallis. Fusce suscipit libero eget elit. Praesent vitae arcu tempor neque lacinia pretium. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo. Integer tempor. Vivamus ac urna vel leo pretium faucibus. Mauris elementum mauris vitae tortor. In dapibus augue non sapien. Aliquam ante. Curabitur bibendum justo non orci.
+    %A-o meu neuo gh'é neue nae neue: a ciù neua de neue nae neue a n'eu anâ.    
+    Querying data lakes containing a large amount of unstructured data is a difficult task, accentuated by the facility of producing data due to the rise of the World Wide Web. A traditional operation on data lakes is to search for joinable and unionable tables, in order to find tables related to specific user requests. Existing approaches search for columns with the best overlap possible, returning columns from tables in data lakes with high joining or unionability rating. These approaches fail to capture the situation in which a data scientist wants to find related tables related to a particular query table, when she is trying to build a machine learning model to predict a column of her query table. The reason for which existing approaches fail is that they do not consider the impact that a joining table has on the predicting tasks, due to the lack of semantic surrounding the data lake. 
 
- Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa. Duis ante orci, molestie vitae, vehicula venenatis, tincidunt ac, pede. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Etiam commodo dui eget wisi. Donec iaculis gravida nulla. Donec quis nibh at felis congue commodo. Etiam bibendum elit eget erat.
-
- Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. In rutrum. Sed ac dolor sit amet purus malesuada congue. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Suspendisse sagittis ultrices augue. Mauris metus. Nunc dapibus tortor vel mi dapibus sollicitudin. Etiam posuere lacus quis dolor. Praesent id justo in neque elementum
+    The goal of the thesis is to define an automatic table augmentation framework, to improve the performance of machine learning models in predicting target columns of a query table. The idea is to start by studying the augmentation problem as a problem on data lakes only, with measures and concepts derived from information theory and functional dependencies, and then integration embeddings in the process. Embeddings will be integrated by mapping tables to knowledge bases and exploiting their semantics to automatically produce the augmentation. More precisely, the thesis will first propose a framework for automatic horizontal table augmentation in data lakes, allowing a data scientist to add relevant features to her query table from a ranking of joining tables. Furthermore, an extension comprehending a mapping of tables to knowledge bases and exploiting knowledge bases embeddings will be developed, in order to study the role of embeddings in automatic tables augmentation. Finally, to sum up the previous results, an ad-hoc embedding algorithm for knowledge bases will be developed to to emphasize the relevant properties a knowledge base should have to produce a relevant augmentation.
 \end{abstract}
 
 \input{sections/motivations.tex}
