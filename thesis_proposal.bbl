@@ -1949,6 +1949,56 @@
     \field{year}{2017}
   \endentry
 
+  \entry{papenbrock2015data}{article}{}
+    \name{author}{5}{}{%
+      {{hash=PT}{%
+         family={Papenbrock},
+         familyi={P\bibinitperiod},
+         given={Thorsten},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Bergmann},
+         familyi={B\bibinitperiod},
+         given={Tanja},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Finke},
+         familyi={F\bibinitperiod},
+         given={Moritz},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zwiener},
+         familyi={Z\bibinitperiod},
+         given={Jakob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=NF}{%
+         family={Naumann},
+         familyi={N\bibinitperiod},
+         given={Felix},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {VLDB Endowment}%
+    }
+    \strng{namehash}{PT+1}
+    \strng{fullhash}{PTBTFMZJNF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{number}{12}
+    \field{pages}{1860\bibrangedash 1863}
+    \field{title}{Data profiling with metanome}
+    \field{volume}{8}
+    \field{journaltitle}{Proceedings of the VLDB Endowment}
+    \field{year}{2015}
+  \endentry
+
   \entry{paulheim2017knowledge}{article}{}
     \name{author}{1}{}{%
       {{hash=PH}{%
