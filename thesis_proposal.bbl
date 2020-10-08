@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.0 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -144,7 +144,7 @@
       }}%
       {{hash=BLT}{%
          family={Berners-Lee},
-         familyi={B\bibinithyphendelim L\bibinitperiod},
+         familyi={B\bibinitperiod-L\bibinitperiod},
          given={Tim},
          giveni={T\bibinitperiod},
       }}%
@@ -258,7 +258,7 @@
       }}%
       {{hash=GDA}{%
          family={Garcia-Duran},
-         familyi={G\bibinithyphendelim D\bibinitperiod},
+         familyi={G\bibinitperiod-D\bibinitperiod},
          given={Alberto},
          giveni={A\bibinitperiod},
       }}%
@@ -690,7 +690,7 @@
          family={Chang},
          familyi={C\bibinitperiod},
          given={Ming-Wei},
-         giveni={M\bibinithyphendelim W\bibinitperiod},
+         giveni={M\bibinitperiod-W\bibinitperiod},
       }}%
       {{hash=LK}{%
          family={Lee},
@@ -916,7 +916,7 @@
          family={Ganea},
          familyi={G\bibinitperiod},
          given={Octavian-Eugen},
-         giveni={O\bibinithyphendelim E\bibinitperiod},
+         giveni={O\bibinitperiod-E\bibinitperiod},
       }}%
       {{hash=BG}{%
          family={B{\'e}cigneul},
@@ -1115,8 +1115,7 @@
          family={Chang},
          familyi={C\bibinitperiod},
          given={Kevin Chen-Chuan},
-         giveni={K\bibinitperiod\bibinitdelim C\bibinithyphendelim
-  C\bibinitperiod},
+         giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod-C\bibinitperiod},
       }}%
     }
     \strng{namehash}{HBCKCC1}
@@ -1540,7 +1539,7 @@
          family={Petit},
          familyi={P\bibinitperiod},
          given={Jean-Marc},
-         giveni={J\bibinithyphendelim M\bibinitperiod},
+         giveni={J\bibinitperiod-M\bibinitperiod},
       }}%
       {{hash=LL}{%
          family={Lakhal},
@@ -1703,44 +1702,6 @@
     \field{year}{2019}
   \endentry
 
-  \entry{mikolov2013efficient}{article}{}
-    \name{author}{4}{}{%
-      {{hash=MT}{%
-         family={Mikolov},
-         familyi={M\bibinitperiod},
-         given={Tomas},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=CK}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Kai},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=CG}{%
-         family={Corrado},
-         familyi={C\bibinitperiod},
-         given={Greg},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=DJ}{%
-         family={Dean},
-         familyi={D\bibinitperiod},
-         given={Jeffrey},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{MT+1}
-    \strng{fullhash}{MTCKCGDJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{title}{Efficient estimation of word representations in vector space}
-    \field{journaltitle}{arXiv preprint arXiv:1301.3781}
-    \field{year}{2013}
-  \endentry
-
   \entry{Mikolov2013EfficientEO}{article}{}
     \name{author}{4}{}{%
       {{hash=MT}{%
@@ -1847,34 +1808,6 @@
     \field{volume}{abs/1806.03417}
     \field{journaltitle}{CoRR}
     \field{year}{2018}
-  \endentry
-
-  \entry{nickel2017poincare}{inproceedings}{}
-    \name{author}{2}{}{%
-      {{hash=NM}{%
-         family={Nickel},
-         familyi={N\bibinitperiod},
-         given={Maximillian},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=KD}{%
-         family={Kiela},
-         familyi={K\bibinitperiod},
-         given={Douwe},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{NMKD2}
-    \strng{fullhash}{NMKD2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{N}
-    \field{sortinithash}{N}
-    \field{booktitle}{Advances in neural information processing systems}
-    \field{pages}{6338\bibrangedash 6347}
-    \field{title}{Poincar{\'e} embeddings for learning hierarchical
-  representations}
-    \field{year}{2017}
   \endentry
 
   \entry{NIPS2017_7213}{incollection}{}
@@ -2368,7 +2301,7 @@
          family={Ganea},
          familyi={G\bibinitperiod},
          given={Octavian-Eugen},
-         giveni={O\bibinithyphendelim E\bibinitperiod},
+         giveni={O\bibinitperiod-E\bibinitperiod},
       }}%
     }
     \strng{namehash}{TABGGOE1}
@@ -2416,19 +2349,19 @@
          family={Wang},
          familyi={W\bibinitperiod},
          given={Shyue-Liang},
-         giveni={S\bibinithyphendelim L\bibinitperiod},
+         giveni={S\bibinitperiod-L\bibinitperiod},
       }}%
       {{hash=SJW}{%
          family={Shen},
          familyi={S\bibinitperiod},
          given={Ju-Wen},
-         giveni={J\bibinithyphendelim W\bibinitperiod},
+         giveni={J\bibinitperiod-W\bibinitperiod},
       }}%
       {{hash=HTP}{%
          family={Hong},
          familyi={H\bibinitperiod},
          given={Tzung-Pei},
-         giveni={T\bibinithyphendelim P\bibinitperiod},
+         giveni={T\bibinitperiod-P\bibinitperiod},
       }}%
     }
     \strng{namehash}{WSLSJWHTP1}

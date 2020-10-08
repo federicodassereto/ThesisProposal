@@ -1,18 +1,20 @@
 \section{Goals, Methodology and Preliminaries}\label{goals}
-In this section, we start with an highlight of the macro goals of the thesis, then we expand the content of Section \ref{motivations} by detailing our specific goals and the feasibility of each of them. Finally, we summarize the work done in the first year concerning the proposed goals.
+% In this section, we start with an highlight of the macro goals of the thesis, then we expand the content of Section \ref{motivations} by detailing our specific goals and the feasibility of each of them. Finally, we summarize the work done in the first year concerning the proposed goals.
+
+In this section, we expand the content of Section \ref{motivations} by detailing our specific goals and the feasibility of each of them, by detailing the methodologies we plan to follow. Finally, we summarize the work done in the first year concerning the proposed goals.
+
 
 \subsection{Goals}\label{sub_goals}
-The high-level goals of this thesis are:
-\begin{itemize}
-    \item To show the relevant role that embeddings can play in searching tasks;
-    \item To show that embeddings can be used directly to answer queries instead of being an orthogonal part of the answering process.
-\end{itemize}
+% The high-level goals of this thesis are:
+% \begin{itemize}
+%     \item To show the relevant role that embeddings can play in augmentation tasks;
+%     \item To show that embeddings can be directly used to answer queries instead of being an orthogonal part of the answering process.
+% \end{itemize}
 
-The overall goal of this research proposal is the study of the role of embeddings in data augmentation, from tables augmentation on data lakes to an embedding algorithm for knowledge bases, passing through the integration of embeddings in existing tables augmentation framework exploiting knowledge bases. We organize the work into four main objectives, each leading to specific results. 
-The aim of Objective 1 (indexing data lakes to augment) is to analyze the state of the art on (i) open data search, and (ii) sketching and approximation of information-theoretic measures, and to define an index for tables augmentation in data lakes based on information-theoretic measures. 
-The aim of Objective 2 (augmenting via knowledge bases) is to analyze the state of the art approaches in knowledge bases representation and augmentation, along with their role in augmenting tables and integrating of embeddings in such approaches. 
-Objective 3 (embedding knowledge bases) aims at proposing an embedding algorithm for knowledge bases, by creating a mathematical structure that encapsulates relevant features for catching the bast augmentation possible, and an evaluation of the proposed algorithm. 
-Finally, Objective 4 (stay up-to-date on embeddings) is an objective which is equally distributed over the three years, in order to stay up-to-date with the newest embedding technologies and algorithms. It is worth to be over the three years since it is a very dynamic topic, and the knowledge gained in recent years on the subject would not be lost.
+The overall goal of this research proposal is the study of the role of embeddings in data augmentation, from tables augmentation on data lakes to an embedding algorithm for knowledge bases, passing through the integration of embeddings in existing tables augmentation framework exploiting knowledge bases. We organize the work into three main objectives, each leading to specific results. 
+The aim of Objective 1 (\textit{indexing data lakes to augment}) is to analyze the state of the art on (i) open data search, and (ii) sketching and approximation of information-theoretic measures, and to define, implement and evaluate an index for tables augmentation in data lakes based on information-theoretic measures. 
+The aim of Objective 2 (\textit{augmenting via knowledge bases}) is to analyze the state of the art approaches in knowledge bases representation and augmentation, along with their role in augmenting tables and integrating of embeddings in such approaches, and to define, implement and evaluate a framework that exploits embeddings of KBs for augmenting. 
+Objective 3 (\textit{embedding knowledge bases}) aims at proposing an embedding algorithm for knowledge bases, by creating a mathematical structure that encapsulates relevant features for catching the bast augmentation possible, and implementing and evaluating the proposed algorithm. Along with the mentioned tasks, Objective 3 aims at (\textit{staying up-to-date on embeddings}), in order to stay up-to-date with the newest embedding technologies and algorithms. It is transversal and equally distributed over the three years since it is a very dynamic topic, and the knowledge gained in recent years on the subject would not be lost.  
 
 \bigbreak
 
@@ -20,49 +22,54 @@ Finally, Objective 4 (stay up-to-date on embeddings) is an objective which is eq
 \begin{enumerate}
     \item \textit{Analysis of the state of the art approaches} related to (i) open data searching and indexing, and (ii) information-theoretic measures approximation and sketching. There exist many frameworks aiming at searching on open data, for tasks such as joinability and unionability, implementing different techniques. Information-theoretic measures are very useful and, for large datasets, can require a lot of time to be computed. We plan to study how to approximate such measures as well as sketching them on a subset of the available data.
     \item \textit{Definition of an index for tables augmentation in data lakes} based on information-theoretic measures, taking advantage of existing indexing structures (e.g., inverted index) by storing the information about a table and its columns, along with information theory measures regarding columns. In such a way, exploiting the fast search offered by the index structures, it would be possible to retrieve joining columns. The key idea is that we will exploit information-theoretic measures to simulate the behavior of functional dependencies. 
+    \item \textit{Implementation and Evaluation of the index for tables augmentation in data lakes} on different data lakes scenario and workloads, aiming at clarify the usefulness of such an index.
 \end{enumerate}
 
 
 \noindent\textbf{Objective 2: Augmenting via knowledge bases.}
 \begin{enumerate}
-    \item \textit{Analysis of the state of the art approaches} for knowledge bases construction, representation and augmentation, along with their role in augmenting tables and integrating of embeddings in such approaches. Since the variety of knowledge bases available, often built available as knowledge graphs, this analysis will be deeply and sharply isolate the fundamental features that a KB is required to have.
-    \item \textit{Definition of a framework that exploits knowledge bases and possibility of including embedding to augment}, by understanding how embeddings algorithms works on knowledge bases and find the best possible representation to maximize the augmentation. Knowledge bases semantics can be very useful in extending tables, by adding not only features to maximize the augmentation but also to add new relevant tuples. Once the augmentation through embeddings will be completed, a comparison between with and without embedding approaches will be conducted, in order to highlight the key role of embeddings.
+    \item \textit{Analysis of the state of the art approaches} for knowledge bases construction, representation, and augmentation, along with their embedding algorithms. Since the variety of knowledge bases available, often built available as knowledge graphs, this analysis will be deeply and sharply isolate the fundamental features that a KB is required to have.
+    \item \textit{Definition of a framework that exploits knowledge bases embedding to augment}, by understanding how embeddings algorithms works on knowledge bases and find the best possible representation to maximize the augmentation. Knowledge bases semantics can be very useful in extending tables, by adding not only features to maximize the augmentation but also to add new relevant tuples. Once the augmentation through embeddings will be completed, a comparison between with and without embedding approaches will be conducted, in order to highlight the key role of embeddings.
+    \item \textit{Implementation and Evaluation of the framework for tables augmentation in data lakes with embeddings of knowledge bases}, by comparing the performances of this approach with respect to knowledge bases only and the index developed in objective 1.
 \end{enumerate}
 
 \noindent\textbf{Objective 3: Embedding knowledge bases.}
 \begin{enumerate}
     \item \textit{Definition of an embedding algorithm for knowledge bases}, by representing in the best way the isolated relevant and general properties that KBs should have for being suitably embedded, along with an extensive evaluation on its efficiency compared to existing embedding techniques. To the best of our knowledge, in the state of the art of embedding algorithms, no algorithm exists that exploits the semantics of its entities, rather they exploit the structural properties of the knowledge base to project it onto a new semantic space. This objective will be founded on the results obtained in Objectives 1 and 2, in order to understand if embeddings effectively play a role. Since this objective is the farthest from the time of writing, not many details are reported.
+    \item \textit{Implementation and Evaluation of the effectiveness of embedding algorithm} for knowledge bases, to show the relevance of this algorithm in knowledge bases representations and its impact on the quality of the augmentation.
+    \item  \textit{Analysis of the state of the art approaches}, of continuously published embeddings works. Many embeddings approaches are yearly proposed, in a variety of formats: from completely new approaches to slightly changes on existing ones, from pre-trained embedding on large structures to new benchmarks. This objective includes the tracking of theoretical new ideas and implementations, in order to able to integrate new embeddings ideas in this work.
 \end{enumerate}
 
-\noindent\textbf{Objective 4: Stay up-to-date on embedding techniques.}
-\begin{enumerate}
-    \item \textit{Analysis of the state of the art approaches}, of continuously published embeddings works. Many embeddings approaches are yearly proposed, in a variety of formats: from completely new approaches to slightly changes on existing ones, from pre-trained embedding on large structures to new benchmarks. This objective includes the tracking of theoretical new ideas and implementations, in order to able to integrate new embeddings ideas in this work.
-\end{enumerate}
+% \noindent\textbf{Objective 4: Stay up-to-date on embedding techniques.}
+% \begin{enumerate}
+%     \item \textit{Analysis of the state of the art approaches}, of continuously published embeddings works. Many embeddings approaches are yearly proposed, in a variety of formats: from completely new approaches to slightly changes on existing ones, from pre-trained embedding on large structures to new benchmarks. This objective includes the tracking of theoretical new ideas and implementations, in order to able to integrate new embeddings ideas in this work.
+% \end{enumerate}
 
 
 \subsection{Methodology}\label{sub_methodology}
 In the following, we describe the methodology we envision for achieving each objective described in Section \ref{sub_goals}.
+\bigbreak
 
 \noindent\textbf{Objective 1: Indexing data lakes to augment.}
 \begin{enumerate}
     \item \textit{Analysis of the state of the art approaches} related to (i) open data searching and indexing, and (ii) information-theoretic measures approximation and sketching. We will review the most relevant solutions to open data problems, like table joinability and unionability, as well as the relevant results obtained in approximating and sketching information-theoretic measures. To this aim, we will take into account both the scientific literature related to data management and to data analysis and learning.
     \item \textit{Definition of an index for tables augmentation in data lakes} based on information-theoretic measures. We plan to propose and index for automatic table augmentation in data lakes. In particular, given a table $T$, a join column $t_j$ of $T$, a target column $t_y$ of $T$ and a data lake $D$ composed of $n$ tables ($D_1,...,D_n$), the index will return a ranking of tables in $D$, joining on $t_j$ that provides the best augmentation for $T$, i.e., mostly improves the performances of a machine learning model that has $t_y$ as target.
+    \item \textit{Implementation and Evaluation of the index for tables augmentation in data lakes}. In order to show the relevance of our index, we plan to implement and evaluate it against different data lakes, taking into account the capability of producing accurate augmentations in reasonable times.
 \end{enumerate}
 
 \noindent\textbf{Objective 2: Augmenting via knowledge bases.}
 \begin{enumerate}
     \item \textit{Analysis of the state of the art approaches} for knowledge bases construction, representations and augmentations. We will conduct a deep and complete analysis of the state of the art approaches and algorithms to manipulate and represent KBs, as well as embedding algorithms for KBs. The main distinction in the embedding approaches will be among the ones with a geometric interpretation, i.e., transitional operations between vectors and the ones based on matrix factorization and co-occurrences, i.e., the family of embedding closer to word embeddings.
-    \item \textit{Definition of a framework that exploits knowledge bases and possibility of including embedding to augment and Comparison}. In the case of semantic data lakes, i.e., data lakes with known (or derivable) mappings on KGs, embeddings can be exploited to retrieve relations between entities in the KG semantic space (for example through a nearest neighbors search or even more complex ways) and produce the augmentation. Once the framework is designed and implemented, an evaluation of the two scenarios (augmenting via KGs only and KGs embedding) will be conducted to show the advantages of using embeddings. In such a situation, an augmentation using only KGs will be taken as baseline; it could work, in its simpler version, with a mapping from tables values to entities in the KG on which a basic join operation can be performed.
+    \item \textit{Definition of a framework that exploits knowledge bases embedding to augment}. In the case of semantic data lakes, i.e., data lakes with known (or derivable) mappings on KGs, embeddings can be exploited to retrieve relations between entities in the KG semantic space (for example through a nearest neighbors search or even more complex ways) and produce the augmentation. 
+    \item \textit{Implementation and Evaluation of the framework for tables augmentation in data lakes with embeddings of knowledge bases}. Once the framework is designed and implemented, an evaluation of the two scenarios (augmenting via KGs only and KGs embedding) will be conducted to show the advantages of using embeddings. In such a situation, an augmentation using only KGs will be taken as baseline; it could work, in its simpler version, with a mapping from tables values to entities in the KG on which a basic join operation can be performed.
 \end{enumerate}
+
 
 \noindent\textbf{Objective 3: Embedding knowledge bases.}
 \begin{enumerate}
-    \item \textit{Definition of an embedding algorithm for knowledge bases}. Once Objective 2 is completed, we will have a picture of what features of existing KGs embedding have a positive impact on the augmentation and which one could be discarded on modified. To this aim, extensive knowledge of embedding algorithms will result in the definition of ad-hoc algorithms to embed KGs to provide table augmentation. The key concept for such an objective is that we do not want to propose a complete novel algorithm for embedding KBs, rather we plan to isolate and represent, in an appropriate way, the most important features of the KB to improve existing algorithms for KBs embeddings. In a sense, we want to integrate the semantic lying in the KB in the embedding process of existing algorithms, that up to now only consider structural properties. At such a point, a comparison between all of the approaches will be done: tables augmentation in data lakes only, table augmentation via KGs, table augmentation via KGs embeddings, and table augmentation via our KGs embedding algorithm.
-\end{enumerate}
-
-\noindent\textbf{Objective 4: Stay up-to-date on embedding techniques.}
-\begin{enumerate}
-    \item \textit{Analysis of the state of the art approaches}, of continuously published embeddings works. In order to review and keep trace of the most relevant embedding approaches, the surveyed techniques we will then be organized into a taxonomy, according to their hypothesis, usage and domain of application.
+    \item \textit{Definition of an embedding algorithm for knowledge bases}. Once Objective 2 is completed, we will have a picture of what features of existing KGs embedding have a positive impact on the augmentation and which one could be discarded on modified. To this aim, extensive knowledge of embedding algorithms will result in the definition of ad-hoc algorithms to embed KGs to provide table augmentation. The key concept for such an objective is that we do not want to propose a complete novel algorithm for embedding KBs, rather we plan to isolate and represent, in an appropriate way, the most important features of the KB to improve existing algorithms for KBs embeddings. In a sense, we want to integrate the semantic lying in the KB in the embedding process of existing algorithms, that up to now only consider structural properties.
+    \item \textit{Implementation and Evaluation of the effectiveness of embedding algorithm} for knowledge bases. At such a point, a comparison between all of the approaches will be done: tables augmentation in data lakes only, table augmentation via KGs, table augmentation via KGs embeddings, and table augmentation via our KGs embedding algorithm.
+    \item  \textit{Analysis of the state of the art approaches} of continuously published embeddings works. In order to review and keep trace of the most relevant embedding approaches, the surveyed techniques we will then be organized into a taxonomy, according to their hypothesis, usage and domain of application.
 \end{enumerate}
 
 
