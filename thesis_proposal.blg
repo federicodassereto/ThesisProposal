@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2019)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis_proposal.aux
 The style file: biblatex.bst
@@ -19,47 +19,47 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 13896 items from 5000.
 Database file #1: thesis_proposal-blx.bib
 Database file #2: proposal_correct.bib
-Biblatex version: 3.8
+Biblatex version: 3.11
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 64 entries,
-            6268 wiz_defined-function locations,
-            1504 strings with 21501 characters,
-and the built_in function-call counts, 433479 in all, are:
-= -- 31195
-> -- 7663
+            6304 wiz_defined-function locations,
+            1511 strings with 21674 characters,
+and the built_in function-call counts, 486574 in all, are:
+= -- 36767
+> -- 7669
 < -- 1821
-+ -- 12369
-- -- 3161
-* -- 33725
-:= -- 47895
++ -- 13361
+- -- 3163
+* -- 37318
+:= -- 57450
 add.period$ -- 0
 call.type$ -- 64
 change.case$ -- 672
-chr.to.int$ -- 30
+chr.to.int$ -- 34
 cite$ -- 126
-duplicate$ -- 48329
-empty$ -- 38348
+duplicate$ -- 52281
+empty$ -- 42615
 format.name$ -- 5431
-if$ -- 86084
+if$ -- 95810
 int.to.chr$ -- 0
 int.to.str$ -- 138
 missing$ -- 0
 newline$ -- 2481
 num.names$ -- 2700
-pop$ -- 22980
+pop$ -- 23908
 preamble$ -- 1
 purify$ -- 1209
 quote$ -- 0
-skip$ -- 10716
+skip$ -- 10466
 stack$ -- 0
-substring$ -- 53230
+substring$ -- 65993
 swap$ -- 10437
-text.length$ -- 1936
+text.length$ -- 1938
 text.prefix$ -- 63
 top$ -- 1
 type$ -- 2164
 warning$ -- 0
-while$ -- 6092
+while$ -- 8075
 width$ -- 0
 write$ -- 2418
